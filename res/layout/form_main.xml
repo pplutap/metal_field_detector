@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center_horizontal"
+        android:text="@string/strApplicationName"
+        android:background="@drawable/background_round"
+        android:textSize="26dp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:text="@string/strProstyPomiar"
+            android:textSize="26dp"
+            android:clickable="true"
+            android:onClick="DoSimpleMeasurement"
+             />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:onClick="DoCamera"
+            android:text="@string/strPomiarKamera"
+            android:textSize="26dp" />
+        
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:text="@string/strPomiarMapa"
+            android:textSize="26dp"
+            android:clickable="true"
+            android:onClick="DoMapMeasurement"
+             />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:text="@string/strInformacje"
+            android:textSize="26dp"
+            android:clickable="true"
+            android:onClick="DoInformation" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:text="@string/strZakoncz"
+            android:textSize="26dp"
+            android:clickable="true"
+            android:onClick="DoZakoncz" />
+
+    </LinearLayout>
+
+</LinearLayout>

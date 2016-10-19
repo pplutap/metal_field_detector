@@ -1,0 +1,61 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.eri.mfd"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="7" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+	<uses-permission android:name="android.permission.CAMERA" />
+	<uses-feature android:name="android.hardware.camera" />
+	<permission android:name="android.permission.FLASHLIGHT"
+             android:permissionGroup="android.permission-group.HARDWARE_CONTROLS"
+             android:protectionLevel="normal" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/MFDThame" >
+        <activity
+            android:name=".FormMain"
+            android:label="@string/title_activity_form_main"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FormCurrentMagnetic"
+            android:label="@string/title_activity_form_main"
+            android:exported="false"
+             >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FormMapMagnetic"
+            android:label="@string/title_activity_form_main" 
+            android:exported="false"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FormCamera"
+            android:label="@string/title_activity_form_main" 
+            android:exported="false"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MagneticValue">
+   </declare-styleable>
+   
+   <declare-styleable name="MagneticHistory">
+   </declare-styleable>
+   
+   <declare-styleable name="MagneticMap">
+   </declare-styleable>   
+   
+   <declare-styleable name="MagneticCamera">
+   </declare-styleable>  
+</resources>

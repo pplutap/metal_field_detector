@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">Magnetic Field Detector</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_form_main">Detektor pola magnetycznego</string>
+    <string name="strApplicationName">Detektor pola magnetycznego</string>
+    <string name="strZakoncz">Zakończ aplikację</string>
+    <string name="strInformacje">Informacje</string>
+    <string name="strProstyPomiar">Prosty pomiar</string>
+    <string name="strPomiarMapa">Tworzenie mapy</string>
+    <string name="strPomiarKamera">Wskaźnik z kamerą</string>
+
+</resources>
